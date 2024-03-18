@@ -1,6 +1,9 @@
+
 const Description = (props) => {
 
+
     return <p>{props.text}</p>
+
 
 };
 

@@ -1,26 +1,25 @@
 
-import "./App.css"
+import './App.css'
 
-import Description from "./components/Description";
-import Title from "./components/Title";
-import Content from "./components/Content";
+import Content from "./Components/Content";
+import Title from "./Components/Title";
+import Description from "./Components/Description";
 
-const App = () => {
+function App() {
+
 
   return (
     <>
-      <div>
-        <h1>Lorem</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione maxime enim omnis repudiandae vel fugit, illum voluptates quos consequatur est obcaecati autem. Placeat illum repellat aspernatur deserunt, ea accusamus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur eligendi tempora reprehenderit quaerat officia. Recusandae.
-        </p>
-      </div>
-      <div>
-        <Title name="Ispum" />
-        <Description text="voluptates quos consequatur est obcaecati autem. Placeat illum repellat aspernatur deserunt, ea accusamus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur eligendi tempora reprehenderit quaerat officia. Recusandae " />
-      </div>
-      <Content name="coucou" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur eligendi tempora reprehen" />
+
+
+      <Content name="Lorem" text="recusandae temporibus blanditiis nulla pariatur quibusdam cupiditate obcaecati fugia" />
+
+      <Content name="Ispus" text="Ullam eaque, aliquid impedit nam, recusandae temporibus blanditiis nulla pariatur quibusdam cupiditate obcaecati fugiat necessitatibus reiciendis nihil sin" />
+
+      <Title name="ghtututut" />
+
     </>
-  );
-};
+  )
+}
 
 export default App

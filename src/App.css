@@ -1,14 +1,17 @@
 div {
-    height: 300px;
-    width: 400px;
-    background: grey;
+    height: 200px;
+    width: 300px;
+    background: rgb(162, 125, 125);
     margin-bottom: 50px;
+    border: 2px solid blue;
 }
 
 h1 {
-    padding: 60px 0 0 20px;
+    font-size: 40px;
+    color: red;
+    padding: 40px;
 }
 
 p {
-    padding: 20px 0 0 20px;
+    padding: 40px;
 }
